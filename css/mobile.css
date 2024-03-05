@@ -1,0 +1,292 @@
+
+.gnb{
+   color: #747474;
+   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   position: fixed;
+   top: 30px;
+   right: 5%;
+}
+
+.gnb li{
+    text-align: center;
+}
+
+.gnb li.active{
+    color: #444444;
+    font-weight: 800;
+}
+
+.wrap .item{
+    height: 100vh;
+}
+
+.top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 0;
+    color: #fff;
+    border-radius: 25px;
+    background-color: #747474;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+}
+
+.item1{
+    position: relative;
+}
+
+.item1 .tit{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 90%;
+    animation: slide 1.5s ease-out;
+}
+
+.item1 p{
+    font-family: 'KCC-eunyoung';
+    font-size: 5em;
+    text-align: center;
+}
+
+@keyframes slide{
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    to{
+        bottom: 50%;
+        opacity: 1;
+    }
+}
+
+/* item1 home */
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 120px;
+   text-align: center;
+}
+
+.item2 .sWrap{
+    margin-top: 40px;
+}
+
+.item2 img{
+    display: block;
+    width: 232px;
+    margin: 0 auto;
+}
+
+.item2 ul{
+    width: 85vw;
+    margin: 60px auto 0 auto;
+}
+
+.item2 ul li{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 3vw;
+}
+/* item2 about me */
+
+.item3 .skill{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.item3 .skill1{
+    margin-bottom: 50px;
+}
+
+.item3 .skill2{
+    margin-bottom: 100px;
+}
+
+.item3 .mWrap{
+    width: 90%;
+    margin: 70px auto 0 auto;
+}
+
+.item3 img{
+    width: 50%;
+}
+
+.item3 h4{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.item3 .license{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.item3 .license li{
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* item3 my skills */
+
+.item4 .tWrap{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.item4 .tWrap .tabBtn{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin: 20px auto 0 auto;
+}
+
+.item4 .tWrap .tabBtn li{
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item4 .tWrap .tabBtn li.active{
+    background-color: #667eaf;
+    font-weight: 600;
+    color: #fff;
+}
+
+.item4 .tWrap .tabCon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item4 .tWrap .tabCon .box .txt{
+    text-align: center;
+    width: 90vw;
+}
+
+.item4 .tWrap .tabCon .box .txt h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item4 .tWrap .tabCon .box .txt p{
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.item4 .tWrap .tabCon .box .txt ul li{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.item4 .tWrap .tabCon .box .txt ul li:last-child{
+    margin-bottom: 0;
+}
+
+.item4 .tWrap .tabCon .box .txt .tool{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.item4 .tWrap .tabCon .box .txt .month{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.item4 .tWrap .tabCon .box img{
+    width: 354px;
+}
+
+.item4 .tWrap .tabCon .box .img{
+    width: 90vw;
+    text-align: center;
+}
+
+.item4 .tWrap .tabCon .box .img p{
+    text-align: center;
+    font-size: 14px;
+    color: #747474;
+}
+
+.item4 .tWrap .tabCon .box2{
+    display: none;
+}
+
+.item4 .tWrap .tabCon .box3{
+    display: none;
+}
+/* item4 portfolio */
+
+
+.item5 .txt{
+    width: 90%;
+    margin: 100px auto 0 auto;
+}
+
+.item5 .txt p{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+.item5 .txt ul{
+    font-size: 20px;
+    text-align: center;
+}
+
+.item5 .txt ul li{
+    margin-bottom: 16px;
+
+}
+
+.item5 .txt a{
+    display: block;
+    width: 170px;
+    margin: 70px auto 40px auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #c9d9f9;
+    color: #747474;
+    text-align: center;
+}
+
+.item5 .txt a:hover{
+    background-color: #667eaf;
+    color: #fff;
+}
+
+.item5{
+    position: relative;
+}
+
+.item5 .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    background-color: #667eaf;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    
+}

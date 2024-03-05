@@ -1,0 +1,134 @@
+@media all and (min-width:1200px){
+    .gnb{
+        width: 35%;
+    }
+
+    .item1 .tit{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .item1 .tit p{
+        font-size: 6.5em;
+        margin: 0 20px;
+    }
+
+    h3{
+        padding-top: 150px;
+    }
+    /* item1 home */
+
+    .item2 .sWrap{
+        width: 80%;
+    }
+
+    .item2 img{
+        width: 348px;
+    }
+
+    .item2 ul{
+        margin-top: 90px;
+        width: 40vw;
+    }
+
+    .item2 ul li{
+        font-size: 1.3vw;
+    }
+    /* item2 */
+
+    .item3 .mWrap{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 150px;
+        width: 70%;
+    }
+
+    .item3 .mWrap .skill{
+        width: 800px;
+    }
+
+    .item3 img{
+        width: unset;
+    }
+
+    .item3 .license{
+        width: 30vw;
+    }
+
+    .item3 .license li{
+        font-size: 1.3vw;
+    }
+    /* item3 */
+
+    .item4 .tWrap{
+        margin-top: 40px;
+    }
+
+    .item4 .tWrap .tabCon{
+        margin-top: 30px;
+    }
+
+    .item4 .tWrap .tabBtn{
+        width: 45vw;
+        font-size: 22px;
+    }
+
+    .item4 .tWrap .tabBtn li{
+        font-size: 22px;
+        padding: 8px 30px;
+        border-radius: 25px;
+    }
+
+    .item4 .tWrap .box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .item4 .tWrap .tabCon .box .txt{
+        width: 35vw;
+        font-size: 16px;
+        background-color: aquamarine;
+    }
+
+    .item4 .tWrap .tabCon .box .txt h4{
+        font-size: 22px;
+    }
+
+    .item4 .tWrap .tabCon .box .txt .tool{
+        font-size: 16px;
+    }
+    
+    .item4 .tWrap .tabCon .box .txt .month{
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    .item4 .tWrap .tabCon .box .txt ul{
+        margin-top: 10px;
+    }
+
+    .item4 .tWrap .box .flexCon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .item4 .tWrap .tabCon .box .img{
+        width: 45vw;
+        background-color: antiquewhite;
+    }
+
+    .item4 .tWrap .tabCon .box img{
+        width: 531px;
+    }
+
+    .item4 .tWrap .tabCon .box .txt h4{
+        margin-top: 30px;
+    }
+    /* item4 */
+
+    .item5 .txt p{
+        font-size: 1.75em;
+    }
+    
+}/*pc*/

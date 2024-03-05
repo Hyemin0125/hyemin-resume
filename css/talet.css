@@ -1,0 +1,58 @@
+@media all and (min-width:768px){
+    .item2 .sWrap{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 150px auto 0 auto;
+    }
+
+    .item2 ul{
+        width: 45vw;
+    }
+    
+    .item2 ul li{
+        font-size: 1.5vw;
+    }
+    /* item2 */
+
+
+    .item3 .mWrap .skill{
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item3 .skill1{
+        margin-bottom: 50px;
+    }
+    
+    .item3 .skill2{
+        margin-bottom: 100px;
+    }
+    /* item3 */
+
+    .item4 .tWrap .tabBtn{
+        width: 70vw;
+    }
+
+    .item4 .tWrap .tabCon{
+        width: 90vw;
+    }
+
+
+    .item4 .tWrap .tabCon .box .txt{
+        width: 90vw;
+        text-align: center;
+    }
+
+    .item4 .tWrap .tabCon .box .img{
+        width: 90vw;
+        text-align: center;
+    }
+
+
+    
+
+    
+    
+}/*tablet*/
